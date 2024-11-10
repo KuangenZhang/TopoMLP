@@ -7,7 +7,7 @@ import time
 import warnings
 from os import path as osp
 
-from openlanev2.evaluation import evaluate as openlanev2_evaluate
+from openlanev2.centerline.evaluation import evaluate as openlanev2_evaluate
 
 import mmcv
 import torch

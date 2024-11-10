@@ -9,6 +9,11 @@ For example, if you want to train TopoMLP on OpenLane-V2 subset-A train set, ple
 ```shell
 ./tools/dist_train.sh projects/configs/topomlp/topomlp_setA_r50_wo_yolov8.py 8 --work-dir=./work_dirs/topomlp_setA_r50_wo_yolov8
 ```
+
+```bash
+./tools/dist_train.sh projects/configs/topomlp_sample_r50_wo_yolov8.py 1 --work-dir=./work_dirs/topomlp_sample_r50_wo_yolov8
+```
+
 The training on 8 Nvidia A100 GPUs takes about 15 hours.
 
 ### Evaluation

@@ -32,7 +32,7 @@ import mmcv
 from mmdet.datasets import PIPELINES
 
 import cv2
-from openlanev2.visualization.utils import COLOR_DICT
+from openlanev2.centerline.visualization.utils import COLOR_DICT
 from projects.topomlp.models.utils.grid_mask import GridMask
 
 

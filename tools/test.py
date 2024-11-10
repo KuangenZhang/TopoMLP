@@ -3,7 +3,7 @@ import argparse
 import os
 import warnings
 
-from openlanev2.evaluation import evaluate as openlanev2_evaluate
+from openlanev2.centerline.evaluation import evaluate as openlanev2_evaluate
 
 import mmcv
 import torch

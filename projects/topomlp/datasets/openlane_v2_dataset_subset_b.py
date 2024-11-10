@@ -31,10 +31,10 @@ import mmcv
 from mmdet.datasets import DATASETS
 from mmdet3d.datasets import Custom3DDataset
 
-from openlanev2.dataset import Collection
-from openlanev2.evaluation import evaluate as openlanev2_evaluate
-from openlanev2.preprocessing import check_results
-from openlanev2.visualization.utils import COLOR_DICT
+from openlanev2.centerline.dataset import Collection
+from openlanev2.centerline.evaluation import evaluate as openlanev2_evaluate
+from openlanev2.centerline.preprocessing import check_results
+from openlanev2.centerline.visualization.utils import COLOR_DICT
 import pickle
 
 COLOR_GT = (0, 255, 0)
